@@ -2,104 +2,121 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
+    <title>Website Desta</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <title>Website desta</title>
   <body>
-    <h1>contact Me</h1>
+    <h1>Contact Me</h1>
+
+    <nav>
+      <a href="index.html">Home</a> | <a href="About.html">About</a> |
+      <a href="Project.html">Project</a> | <a href="Contact.html">Contact</a> |
+      <a href="Playlist.html">Playlist</a>
+    </nav>
+    <hr />
+
+    <h3>Informasi Kontak</h3>
+    <p>
+      Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui
+      form berikut. <br />
+      Anda juga dapat mengirim email ke
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=mdestapermananugraha@student.upi.edu"
+        target="_blank"
+        style="color: aqua"
+      >
+        mdestapermananugraha@student.upi.edu
+      </a>
+    </p>
+
+    <h3>Form Pesan</h3>
+
+    <table
+      id="tabel-contact"
+      border="1"
+      cellspacing="0"
+      cellpadding="8"
+      width="50%"
+    >
+      <tr>
+        <td colspan="2" align="center"><strong>Form Data Kontak</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Nama Lengkap:</strong></td>
+        <td><input type="text" style="width: 90%; padding: 5px" /></td>
+      </tr>
+      <tr>
+        <td><strong>Email:</strong></td>
+        <td><input type="email" style="width: 90%; padding: 5px" /></td>
+      </tr>
+      <tr>
+        <td><strong>Nomor Telepon:</strong></td>
+        <td><input type="text" style="width: 90%; padding: 5px" /></td>
+      </tr>
+      <tr>
+        <td><strong>Jenis Kelamin:</strong></td>
+        <td>
+          <input type="radio" name="jk" /> Laki-laki
+          <input type="radio" name="jk" /> Perempuan
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Tanggal Lahir:</strong></td>
+        <td><input type="date" style="padding: 5px" /></td>
+      </tr>
+      <tr>
+        <td><strong>Topik Pesan:</strong></td>
+        <td>
+          <select style="padding: 5px">
+            <option>Diskusi</option>
+            <option>Pertanyaan</option>
+            <option>Saran</option>
+            <option>Lainnya</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Jenis Pesan:</strong></td>
+        <td>
+          <input type="radio" name="jenis" /> Pertanyaan
+          <input type="radio" name="jenis" /> Saran
+          <input type="radio" name="jenis" /> Lainnya
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Pesan:</strong></td>
+        <td>
+          <textarea style="width: 90%; height: 80px; padding: 5px"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Salinan Pesan:</strong></td>
+        <td><input type="checkbox" /> Kirim salinan pesan ke email saya</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input
+            type="submit"
+            value="Kirim Pesan"
+            style="padding: 5px 15px; margin-right: 10px"
+          />
+          <input type="reset" value="Reset" style="padding: 5px 15px" />
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <p style="font-size: 14px; color: lightgray">
+      <i
+        >Catatan: Karena website ini hanya menggunakan HTML, form belum
+        terhubung ke server atau database.</i
+      >
+    </p>
+
+    <hr />
+    <p>
+      <a href="index.html" style="color: rgb(17, 17, 16)">Kembali Ke Home</a>
+    </p>
+    <p>© 2026 M. Desta Permana Nugraha.</p>
   </body>
 </html>
-<nav>
-  <a href="index.html">Home</a> | <a href="About.html">About</a> |
-  <a href="Project.html">Project</a> | <a href="Contact.html">Contact</a> |
- <a href="Playlist.html">Playlist</a>
-</nav>
-<hr />
-<h3>Informasi Kontak</h3>
-<p>
-  Jika Anda ingin bersdiskusi atau bekerja sama, siahkan hubungi saya melalui
-  form berikut. <br />
-  Anda juga dapat mengirim email ke
-  <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=mdestapermananugraha@student.upi.edu"
-    target="_blank"
-  >
-    mdestapermananugraha@student.upi.edu
-  </a>
-</p>
-
-<h3>Form Pesan</h3>
-<table border="1" cellspacing="0" cellspadding="5" width="45%" align="center">
-  <tr>
-    <td colspan="2" align="center"><strong>form data kontak</strong></td>
-  </tr>
-  <tr>
-    <td><strong>Nama Lengkap:</strong></td>
-    <td><input type="text" /></td>
-  </tr>
-  <tr>
-    <td><strong>Email:</strong></td>
-    <td><input type="email" name="" id="" /></td>
-  </tr>
-  <tr>
-    <td><strong>Nomor Telepon:</strong></td>
-    <td><input type="text" /></td>
-  </tr>
-  <tr>
-    <td><strong>Jenis Kelamin:</strong></td>
-    <td>
-      <input type="radio" name="jk" />laki-laki
-      <input type="radio" name="jk" />perempuan
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Tanggal Lahir</strong></td>
-    <td><input type="date" name="" id="" /></td>
-  </tr>
-  <tr>
-    <td><strong>Topik Pesan</strong></td>
-    <td>
-      <select>
-        <option>Diskusi</option>
-        <option>Pertanyaan</option>
-        <option>Saran</option>
-        <option>Lainnya</option>
-      </select>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Jenis Pesan</strong></td>
-    <td>
-      <input type="radio" name="" />Pertanyaan
-      <input type="radio" name="" />Saran
-      <input type="radio" name="" id="" />Lainnya
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Pesan</strong></td>
-    <td><textarea name="" id=""></textarea></td>
-  </tr>
-  <tr>
-    <td><strong>salinan Pesan</strong></td>
-    <td>
-      <input type="checkbox" name="" id="" />Kirim salinan pesan Ke email saya
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <input type="submit" value="kirim pesan" /><input
-        type="reset"
-        value="reset"
-      />
-    </td>
-  </tr>
-</table>
-
-<p>
-  <i
-    >catatan: karena website ini hanya menggunakan HTML, form belum terhubung ke
-    server atau database.</i
-  >
-</p>
-<hr />
-<p><a href="index.html">Kembali Ke Home</a></p>
-<p>© 2026 M. Desta Permana Nugraha.</p>
